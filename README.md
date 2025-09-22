@@ -87,10 +87,16 @@ You should see something like:
 <img width="1552" height="825" alt="image" src="https://github.com/user-attachments/assets/dcbfca0c-7181-47d1-ae32-938f2937e520" />
 
 ## Download Someone Else's Hello.txt!
-So, if you are on Baylor Wifi this part will not work for you...
-But this is what makes the project like a localized FTP server, assuming another person knows your IP address and the name of the file they want to get.
-You may be able to get it to work across devices on the same mobile hotspot.
-Change VM settings in Virtual Box, I suggest using the Bridged Adapter as that is the easiest.
+So, if you are on Baylor Wifi this part will not work for you... HOWEVER it will work on devices on the same mobile hotspot!
+
+This is what makes the project like a local network FTP server, assuming another person knows your IP address and the name of the file they want to get.
+
+**Change VM settings in Virtual Box, I suggest using the Bridged Adapter as that is the easiest.**
+Close VM
+Close VM
+VirtualBox > Select the VM you want to use > Settings > Network > Adapter 1 > Change "Attached To" (Bridged Adapter)
+
+*You should be able to leave the name of adapter the same*
 
 Options:
 1.  Port Forwarding (Set a new rule with the following)
